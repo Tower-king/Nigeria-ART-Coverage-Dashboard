@@ -4,7 +4,7 @@ A polished Streamlit dashboard for exploring adolescent and young people HIV ART
 
 ## Overview
 
-This project turns the workbook in `data/HIV_Adolescent_ART_Coverage_2025.xlsx` into an interactive public health dashboard that highlights:
+This project turns the workbook in HIV_Adolescent_ART_Coverage_2025.xlsx into an interactive public health dashboard that highlights:
 
 - **Nigeria’s ART coverage** against the selected benchmark
 - **Age-group comparisons** for Nigeria vs the global average
@@ -50,21 +50,20 @@ streamlit run app.py
 
 ## Data source
 
-The dashboard uses the workbook in `data/HIV_Adolescent_ART_Coverage_2025.xlsx`.
+The dashboard uses the workbook in `HIV_Adolescent_ART_Coverage_2025.xlsx` sourced from UNAIDS public databank.
 
 ## Technologies used
 
-- `Streamlit` for the web dashboard
-- `Pandas` for data loading and transformation
-- `Altair` for interactive visualizations
-- `OpenPyXL` for reading the workbook
+- Streamlit for the web dashboard
+- Pandas for data loading and transformation
+- Altair for interactive visualizations
+- OpenPyXL for reading the workbook
+- Matplotlib for plotting graphs
 
 ## How it works
 
-1. The workbook is loaded from `data/`.
-2. The `Value` field is normalized so strings such as `4,100`, `>95`, and `<200` are safely converted to numeric values.
-3. The sidebar filters are applied to build the ranking, comparison, and top-10 views.
-4. The app renders polished metrics, charts, and a country table in a wide-layout dashboard.
+1. The sidebar filters are applied to build the ranking, comparison, and top-10 views.
+2. The app renders polished metrics, charts, and a country table in a wide-layout dashboard.
 
 ## Deployment
 
@@ -79,29 +78,13 @@ This project can be hosted on:
 - Highlight Nigeria’s position relative to peers
 - Offer a public-facing dashboard suitable for GitHub and portfolio sharing
 
-## Notes
-
-- The dashboard is designed for **public health reporting and portfolio presentation**.
-- The `Value` field is cleaned before visualization so numeric formatting inconsistencies in the workbook do not break the app.
-
-## Screenshots
-
-Add your dashboard screenshots here once they are captured.
-
 ### Dashboard overview
-
-![Dashboard overview](https://via.placeholder.com/1200x700?text=Dashboard+Overview)
+(https://github.com/Tower-king/Nigeria-ART-Coverage-Dashboard/blob/main/Dashboard.JPG)
 
 ### Ranking view
 
-![Ranking view](https://via.placeholder.com/1200x700?text=Ranking+View)
+https://github.com/Tower-king/Nigeria-ART-Coverage-Dashboard/blob/main/ranking.JPG
 
 ### Top 10 countries table
 
-![Top 10 countries table](https://via.placeholder.com/1200x700?text=Top+10+Countries)
-
-## Future improvements
-
-- Add a short narrative summary for each filter selection
-- Include downloadable CSV or chart exports
-- Add a reusable KPI section for key public health insights
+https://github.com/Tower-king/Nigeria-ART-Coverage-Dashboard/blob/main/top%2010%20countries.JPG
