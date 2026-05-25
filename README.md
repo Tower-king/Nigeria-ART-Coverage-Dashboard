@@ -12,6 +12,13 @@ This project turns the workbook in HIV_Adolescent_ART_Coverage_2025.xlsx into an
 - **Top 10 countries** table for the selected filters
 - **Sidebar controls** for indicator, age group, sex, year, and UNICEF region
 
+## Key Findings
+
+- Nigeria ranked 43rd globally for ART coverage among adolescents and young people aged 15-24.
+- ART coverage was 77%.
+- Female coverage (78%) was slightly higher than male coverage (75%).
+- Coverage among adolescents aged 15-19 was 60%
+
 ## Features
 
 - Interactive **filters** for:
@@ -23,8 +30,8 @@ This project turns the workbook in HIV_Adolescent_ART_Coverage_2025.xlsx into an
 - **Age-group comparison chart**
 - **Ranking chart** with Nigeria highlighted
 - **Top 10 countries** table
-- Clean **portfolio-ready layout** with dashboard cards and a polished sidebar
-- Data cleaning for values such as `4,100`, `>95`, and `<200`
+- Clean dashboard cards and a polished sidebar
+
 
 ## Project files
 
@@ -76,7 +83,6 @@ This project can be hosted on:
 
 - Provide a clean, decision-ready view of ART coverage performance
 - Highlight Nigeria’s position relative to peers
-- Offer a public-facing dashboard suitable for GitHub and portfolio sharing
 
 ### Dashboard overview
 ![Dashboard Overview](Dashboard.JPG)
