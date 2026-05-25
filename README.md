@@ -79,11 +79,11 @@ This project can be hosted on:
 - Offer a public-facing dashboard suitable for GitHub and portfolio sharing
 
 ### Dashboard overview
-https://github.com/Tower-king/Nigeria-ART-Coverage-Dashboard/blob/main/Dashboard.JPG?raw=true
+![Dashboard Overview](Dashboard.JPG)
 
 ### Ranking view
+![Ranking view](ranking.JPG)
 
-https://github.com/Tower-king/Nigeria-ART-Coverage-Dashboard/blob/main/ranking.JPG?raw=true
 ### Top 10 countries table
 
-https://github.com/Tower-king/Nigeria-ART-Coverage-Dashboard/blob/main/top%2010%20countries.JPG?raw=true
+![Top 10 countries table](top 10 countries.JPG)
