@@ -19,6 +19,11 @@ This project turns the workbook in HIV_Adolescent_ART_Coverage_2025.xlsx into an
 - Female coverage (78%) was slightly higher than male coverage (75%).
 - Coverage among adolescents aged 15-19 was 60%
 
+These findings can be due to:
+1. Greater female retention in care and followup
+2. Less robust health seeking behaviour by the men
+3. Targeted programs for HIV in women(PMTCT)
+
 ## Features
 
 - Interactive **filters** for:
