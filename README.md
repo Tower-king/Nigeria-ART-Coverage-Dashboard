@@ -85,5 +85,4 @@ This project can be hosted on:
 ![Ranking view](ranking.JPG)
 
 ### Top 10 countries table
-
-![Top 10 countries table](top 10 countries.JPG)
+![Top 10 countries table](top10countries.JPG)
