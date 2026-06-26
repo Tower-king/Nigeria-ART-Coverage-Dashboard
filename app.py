@@ -47,7 +47,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "HIV_Adolescent_ART_Coverage_2025.xlsx"
+import os 
+DATA_PATH = os.path.join(os.path.dirname(__file__), "HIV_Adolescent_ART_Coverage_2025.xlsx")
 
 
 @st.cache_data(show_spinner=False)
